@@ -62,22 +62,6 @@
     },
     {
       "id": 4,
-      "company": "MyHome",
-      "logo": "../../../images/myhome.svg",
-      "description": "Um bootcamp de 6 meses em que as alunas têm aulas 5 dias por semana, aprendendo não só sobre aspectos técnicos (Javascript), como também desenvolvendo habilidades socioemocionais. As estudantes não pagam nada durante o curso e, depois de conseguirem um emprego, elas doam uma contribuição por até dois anos para que outras mulheres possam ter a mesma oportunidade.",
-      "url": "https://www.laboratoria.la/br",
-      "courses": [
-          {
-              "name": "Front-end",
-              "duration": "6 meses",
-              "registrations": "09/08/2020",
-              "note": ""
-          }
-        ]
-     
-    },
-    {
-      "id": 5,
       "company": "Digital Innovation One",
       "logo": "https://hermes.digitalinnovation.one/site/images/logo-sm-white.png",
       "description": "A Digital Innovation One é uma comunidade com +200 mil desenvolvedores de software que acelera gratuitamente a sua carreira através de cursos, bootcamps, projetos práticos e desafios para você conquistar as melhores oportunidades profissionais nas empresas mais inovadoras do mercado de trabalho.",
@@ -153,7 +137,7 @@
      
     },
     {
-      "id": 6,
+      "id": 5,
       "company": "IGTI",
       "logo": "https://www.igti.com.br/wp-content/themes/wp-bootstrap-4/assets/images/logos/logo-green.png",
       "description": "O Instituto de Gestão e Tecnologia da Informação, fundada em 2006, é uma instituição de ensino superior credenciada pelo MEC. É referência nacional na formação profissional em TI e Tecnologias Emergentes, e possui um modelo educacional a distância que prioriza a excelência acadêmica dos seus alunos.",
@@ -169,7 +153,7 @@
      
     },
     {
-      "id": 7,
+      "id": 6,
       "company": "Digital House from Facebook",
       "logo": "https://images.assets-landingi.com/3y81uSF1RfLaPyVe/logo2.png",
       "description": "A Digital House, uma startup de educação, chegou ao Brasil para ajudar a diminuir esse déficit, formando profissionais digitais preparados para o mercado de trabalho.",
@@ -185,7 +169,7 @@
     
     },
     {
-      "id": 8,
+      "id": 7,
       "company": "Elogroup (Digital Boot Camp)",
       "logo": "https://bootcamp.elogroup.com.br/wp-content/uploads/2020/04/logo-digital-boot-camp-landing.png",
       "description": "O Digital Boot Camp da EloGroup é uma experiência intensiva de aprendizado 100% online e gratuita. Os alunos das diversas universidades do país que forem selecionados para participar do programa serão distribuídos em grupos para trabalharem juntos nos desafios, isso porque, além de disseminar conhecimento a respeito de inovação, visamos conectar pessoas engajadas e interessadas no assunto.",
@@ -196,7 +180,7 @@
      
     },
     {
-      "id": 9,
+      "id": 8,
       "company": "Generation Brazil",
       "logo": "https://brazil.generation.org/wp-content/uploads/2019/03/Generation_BRASIL_logo_WHITE.svg",
       "description": "Nossa missão é apoiar jovens a construírem carreiras sustentáveis e prósperas e fornecer aos empregadores uma rede de talentos altamente qualificados e motivados, visando aprimorar os resultados de seus negócios. Nossa visão é possibilitar um emprego no início da carreira para todos os jovens em qualquer lugar do mundo.",
@@ -213,7 +197,7 @@
 
     },
     {
-        "id": 10,
+        "id": 9,
         "company": "Recorde Pro",
         "logo": "https://www.recodepro.org.br/wp-content/uploads/2020/05/logo_maior-2.png",
         "description": "O Programa Recode Pro visa a formação e a empregabilidade de pessoas de 18 a 39 anos, em situação de maior vulnerabilidade social, como programadores full stack. Além do conteúdo técnico, são desenvolvidos temas como criatividade, comunicação, atuação profissional, e a metodologia proposta se baseia na colaboração e na construção de projetos para a resolução de problemas sociais.",
