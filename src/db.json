@@ -1,5 +1,5 @@
-[
-    {
+{
+   "bootcamps": [ {
       "id": 1,
       "company": "{Reprograma}",
       "logo": "https://reprograma.com.br/assets/img/logo.png",
@@ -229,5 +229,5 @@
        
   
       }
-    
-  ]
+   ]
+}
