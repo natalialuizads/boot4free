@@ -2,7 +2,7 @@
   Boot4Free
 </h3>
 <p align="center">
-  ![](https://img.shields.io/badge/made%20by-natalialuiza-yellowgreen) [![Build Status](https://img.shields.io/badge/npm-6.14.6-green))](https://img.shields.io/badge/node-v14.4.0-green)
+  ![](https://img.shields.io/badge/made%20by-natalialuiza-yellowgreen) 
 </p>
 
 ### Sobre
