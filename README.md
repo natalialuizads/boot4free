@@ -1,10 +1,11 @@
 <h1 align="center">
   Boot4Free
-</h3>
-
+</h1>
+<p align="center">
   ![Made By](https://img.shields.io/badge/made%20by-natalialuiza-yellowgreen) 
-
-
+  ![Node Version](https://img.shields.io/badge/node-v14.4.0-green) 
+  ![NPM Version](https://img.shields.io/badge/npm-6.14.6-green) 
+</p>
 ### Sobre
 
 Hoje em dia a procura de bootcamps está em alta, muitas pessoas procuram informações sobre o tema e acabam ficando perdidas no meio de tantas opções e fontes sobre o assunto, pensando nisso decidimos criar o boot4free, uma plataforma para centralizar informações dos bootcamps gratuitos.
