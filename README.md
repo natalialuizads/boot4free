@@ -2,7 +2,7 @@
   Boot4Free
 </h3>
 <p align="center">
-  ![](https://img.shields.io/badge/made%20by-natalialuiza-yellowgreen) 
+  ![Made By](https://img.shields.io/badge/made%20by-natalialuiza-yellowgreen) 
 </p>
 
 ### Sobre
