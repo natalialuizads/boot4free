@@ -1,9 +1,9 @@
 <h1 align="center">
   Boot4Free
 </h3>
-<p align="center">
+
   ![Made By](https://img.shields.io/badge/made%20by-natalialuiza-yellowgreen) 
-</p>
+
 
 ### Sobre
 
