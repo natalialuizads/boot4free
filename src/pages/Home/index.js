@@ -28,8 +28,8 @@ class Home extends Component {
         return(
             <main>
                 <Main />
-                <About />
-                <Bootcamps 
+                <About /> 
+                 <Bootcamps 
                  courses={this.state.courses}
                 />
             </main>

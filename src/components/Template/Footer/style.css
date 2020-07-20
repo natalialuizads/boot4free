@@ -1,0 +1,13 @@
+.footer {
+    background-color: #FFD465;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #474A57;
+    height: 60px;
+    font-size: 1rem;
+}
+
+.footer a {
+    font-weight: bold;
+}

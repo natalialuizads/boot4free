@@ -3,15 +3,17 @@ import './style.css'
 
 import Title from '../../../components/Title/Index'
 
-const Profile = ({name, className, description, logo}) => {
+const Profile = ({name, description, url}) => {
    return(
        <div className="card__profile">
             <Title
              text={name}
-             className={className}
+             className="profile__title"
              />
-             <p>{description}</p>
-             <img className="logo" src={logo} alt=""></img>
+             <p className="profile__paragraph">{description}</p>
+             <di>
+                  <a href={url} target="blank">Acessar Site</a>
+              </di>
        </div>
    )
 }

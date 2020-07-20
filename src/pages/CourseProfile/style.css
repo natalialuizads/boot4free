@@ -1,0 +1,40 @@
+.courseProfile {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto 0;
+}
+
+.btn__comeback{
+width: 150px;
+height: 44px;
+border: 2px solid #1947E5;
+border-radius: 16px;
+padding: 8px;
+}
+
+.btn__comeback:hover{
+    background: #1947E5;
+    color: #FFFFFF;
+}
+
+.btn__comeback__title{
+font-weight: 800;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #1947E5;
+}
+
+
+
+
+.person__img{
+   position: aboslute;
+   bottom: 0;
+   left: 0;
+}

@@ -1,0 +1,17 @@
+.bootcampsList{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bootcamps__title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #18191F;
+    margin: 40px auto;
+}

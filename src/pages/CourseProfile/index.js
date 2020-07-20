@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import './style.css'
 
 import Profile from './Profile'
 import CoursesList from './CoursesList'
 import api from '../../services/api'
+import personImg from '../../assets/images/person_bootcamp_women.png'
 
 class CourseProfile extends Component {
     constructor() {
@@ -20,20 +22,21 @@ class CourseProfile extends Component {
      }
 
     render(){
-        const {company, logo, description, url} = this.state.bootcamp
+        const {company, description, url} = this.state.bootcamp
         return(
-            <div>
+            <div className="courseProfile">
+            <div className="container">
+            <Link className="btn__comeback btn__comeback__title" to={`/`}>Voltar</Link>
               <Profile 
               name={company}
               description={description}
-              logo={logo}
+              url={url}
               />
               <CoursesList 
               courses={this.state.courses}
               />
-              <di>
-                  <a href={url} target="blank">Acessar Site</a>
-              </di>
+            </div>
+            <img class="person__img" src={personImg} alt=""></img>
             </div>
         )
     }

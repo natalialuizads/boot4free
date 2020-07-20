@@ -1,0 +1,21 @@
+.card__profile{
+    margin-top: 10px;
+}
+.profile__title {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 42px;
+line-height: 61px;
+color: #00186A;
+
+}
+
+.profile__paragraph{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 42px;
+color: #474A57;
+}

@@ -1,0 +1,57 @@
+.about {
+    background-color: #FF9692;
+    height: 402px;
+    border-radius: 55px;
+    display: flex;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.about__infos{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #18191F;
+}
+
+.about__paragraph{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: #474A57;
+    text-align: center;
+    max-width: 917px;
+    max-height: 148px; 
+    padding: 10px;
+}
+
+.about__person__women {
+    order: -1;
+    position: absolute;
+    top: -250px;
+    max-width: 250px;
+    max-height: 379px;
+
+}
+
+.about__person_man {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    max-width: 247px;
+    max-height: 323px;
+
+}
+
