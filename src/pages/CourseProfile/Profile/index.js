@@ -9,11 +9,9 @@ const Profile = ({name, description, url}) => {
             <Title
              text={name}
              className="profile__title"
+             link={url}
              />
              <p className="profile__paragraph">{description}</p>
-             <di>
-                  <a href={url} target="blank">Acessar Site</a>
-              </di>
        </div>
    )
 }

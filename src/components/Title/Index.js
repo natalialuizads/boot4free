@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css'
 
-const MainTitle = ({ text, className }) => {
-    return <h1 className={className}>{text}</h1> 
+const MainTitle = ({ text, className, link }) => {
+    return <h1 className={className}><a href={link}>{text}</a></h1> 
 }
 
 export default MainTitle
