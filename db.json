@@ -10,25 +10,25 @@
               "name": "Front-end com Accenture",
               "duration": "18 semanas",
               "registrations": "17/07/2020",
-              "note": "Bootcamp gratuito para Recife e São Paulo"
+              "note": " para Recife e São Paulo"
           },
           {
             "name": "Back-end com Accenture",
             "duration": "18 semanas",
             "registrations": "17/07/2020",
-            "note":"Bootcamp gratuito para Recife e São Paulo"
+            "note":"para Recife e São Paulo"
           },
           {
-            "name": "Back-end em parceria com a XP Inc.",
+            "name": "Back-end com a XP Inc.",
             "duration": "18 semanas",
             "registrations": "17/07/2020",
-            "note":"Bootcamp gratuito para todo o Brasil"
+            "note":"para todo o Brasil"
           },
           {
-            "name": "Back-end em parceria com o projeto MINAS",
+            "name": "Back-end com o projeto MINAS",
             "duration": "18 semanas",
             "registrations": "17/07/2020",
-            "note":"Bootcamp gratuito para Recife"
+            "note":"para Recife"
          }
 
       ]

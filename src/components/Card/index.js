@@ -5,10 +5,8 @@ const Card = ({ name, registrations, note }) => {
   return (
     <article className="card">
       <h2 className="card__title">{name}</h2>
-      <div className="card__infos">
-        <p className="card__registrations">{registrations}</p>
-        <p className="card__note">{note}</p>
-      </div>
+        <p className="card__registrations">Inscrições até: {registrations}</p>
+        <p className="card__note"><strong>{note}</strong></p>
     </article>
   );
 };

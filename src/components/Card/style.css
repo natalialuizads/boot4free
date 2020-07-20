@@ -6,8 +6,17 @@ border-radius: 16px;
 width: 274px;
 height: 98px;
 margin: 10px 10px 10px 0;
-display: block;
+display: flex;
+flex-direction: column;
+justify-content: center;
 text-align: center;
+}
+
+.card__title {
+font-weight: 800;
+font-size: 18px;
+line-height: 28px;
+color: #474A57;
 }
 
 
