@@ -9,27 +9,6 @@
     padding-top: 30px;
 }
 
-.btn__comeback{
-width: 150px;
-height: 44px;
-border: 2px solid #1947E5;
-border-radius: 16px;
-padding: 8px;
-}
-
-.btn__comeback:hover{
-    background: #1947E5;
-    color: #FFFFFF;
-}
-
-.btn__comeback__title{
-font-weight: 800;
-font-size: 18px;
-line-height: 28px;
-text-align: center;
-color: #1947E5;
-}
-
 .person__img{
    bottom: 0;
    left: 0;
@@ -51,13 +30,19 @@ color: #1947E5;
         justify-content: center;
     }
 }
-@media (max-width:600px) { 
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (max-width:680px) { 
+    .person__img{
+        display: none;
+     }
+     .coursesList{
+         margin: 20px 0;
+     }
  }
+
 @media (max-width:480px) { 
-    /* smartphones, Android phones, landscape iPhone */ 
+   
 }
 @media (max-width:320px) { 
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+   
 }
 
