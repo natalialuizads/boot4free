@@ -51,4 +51,19 @@ color: #474A57;
     .btn__comeback{
        display: none;
     }
+    .profile__title {
+        text-align: center;
+        font-size: 30px;
+     }
+}
+
+@media (max-width:480px) { 
+    .profile__title {
+        text-align: center;
+        font-size: 24px;
+     }
+     .profile__paragraph {
+        font-size: 16px;
+        line-height: 25px;
+    }
 }

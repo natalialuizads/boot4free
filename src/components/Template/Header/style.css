@@ -35,3 +35,12 @@
         padding:15px;
     }
 }
+
+@media (max-width:480px) { 
+    .menu__logo{
+        font-size: 16px;
+    }
+    .menu__item {
+        font-size:10px;
+    }
+}
