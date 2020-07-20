@@ -26,7 +26,6 @@ class CourseProfile extends Component {
         return(
             <div className="courseProfile">
             <div className="container">
-            <Link className="btn__comeback btn__comeback__title" to={`/`}>Voltar</Link>
               <Profile 
               name={company}
               description={description}
@@ -36,7 +35,7 @@ class CourseProfile extends Component {
               courses={this.state.courses}
               />
             </div>
-            <img class="person__img" src={personImg} alt=""></img>
+            <img className="person__img" src={personImg} alt=""></img>
             </div>
         )
     }

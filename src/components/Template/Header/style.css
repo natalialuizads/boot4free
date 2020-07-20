@@ -3,12 +3,12 @@
 }
 
 .menu__logo{
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 28px;
-text-transform: uppercase;
-color: #231F20;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #474A57;;
 }
 
 .nav{
@@ -28,4 +28,10 @@ color: #231F20;
 .menu__item {
     font-size:1.2rem;
     margin: 0 10px;
+}
+
+@media (max-width:1200px) { 
+    .nav{
+        padding:15px;
+    }
 }

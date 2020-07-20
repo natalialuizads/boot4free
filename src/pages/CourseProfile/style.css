@@ -1,12 +1,12 @@
 .courseProfile {
     max-width: 1400px;
     margin: 0 auto;
-    position: relative;
 }
 
 .container {
     max-width: 960px;
-    margin: 20px auto 0;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 
 .btn__comeback{
@@ -31,7 +31,33 @@ color: #1947E5;
 }
 
 .person__img{
-   position: aboslute;
    bottom: 0;
    left: 0;
+   width: 170px;
+   height: 250px;
 }
+
+
+@media (max-width:1024px) { 
+    .card__profile {
+        margin-top: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .coursesList {
+        width:100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:600px) { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+ }
+@media (max-width:480px) { 
+    /* smartphones, Android phones, landscape iPhone */ 
+}
+@media (max-width:320px) { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+

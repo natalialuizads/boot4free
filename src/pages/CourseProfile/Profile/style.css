@@ -1,8 +1,7 @@
 .card__profile{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .profile__title {
-font-family: Montserrat;
 font-style: normal;
 font-weight: 800;
 font-size: 42px;
@@ -18,4 +17,38 @@ font-weight: 500;
 font-size: 18px;
 line-height: 42px;
 color: #474A57;
+}
+
+.btn__comeback__mobile{
+    display: none;
+}
+
+.btn__comeback{
+    width: 150px;
+    height: 44px;
+    border: 2px solid #1947E5;
+    border-radius: 16px;
+    padding: 8px;
+}
+    
+.btn__comeback:hover{
+        background: #1947E5;
+        color: #FFFFFF;
+    }
+    
+.btn__comeback__title{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #1947E5;
+}
+
+@media (max-width:680px) { 
+    .btn__comeback__mobile{
+        display: block;
+    }
+    .btn__comeback{
+       display: none;
+    }
 }
