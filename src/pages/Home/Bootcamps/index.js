@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css'
 
 import CardBootcamp from '../../../components/CardBootcamp'
-import Title from "../../../components/Title/Index";
 
 const Bootcamps = ({courses}) => {
     return(

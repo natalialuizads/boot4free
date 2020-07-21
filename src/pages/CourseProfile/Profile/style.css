@@ -45,6 +45,9 @@ color: #474A57;
 }
 
 @media (max-width:680px) { 
+    .card__profile {
+        height: 100%;
+    }
     .btn__comeback__mobile{
         display: block;
     }

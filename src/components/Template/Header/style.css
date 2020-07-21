@@ -8,7 +8,7 @@
     font-size: 26px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #474A57;;
+    color: #474A57;
 }
 
 .nav{
@@ -33,7 +33,9 @@
 @media (max-width:1200px) { 
     .nav{
         padding:15px;
+        max-width: 1024px;
     }
+
 }
 
 @media (max-width:480px) { 
@@ -41,6 +43,6 @@
         font-size: 16px;
     }
     .menu__item {
-        font-size:10px;
+        font-size:14px;
     }
 }
