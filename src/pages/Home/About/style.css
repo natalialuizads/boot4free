@@ -37,14 +37,14 @@
     padding: 10px;
 }
 
-/* .about__person__women {
+.about__person__women {
     order: -1;
     position: absolute;
     top: -250px;
     max-width: 250px;
     max-height: 379px;
 
-} */
+}
 
 .about__person_man {
     position: absolute;

@@ -1,12 +1,17 @@
 .main {
     background-color: #EEEFF4;
     display: flex;
-    padding: 10px 0;
     height: 95vh;
+    padding: 10px 0;
     flex-wrap: wrap;
     max-width: 1400px;
     margin: 0 auto;
 }
+
+.img__mobile {
+    display: none;
+}
+
 
 .main__img {
     display: flex;
@@ -20,16 +25,13 @@
     width: 100%;
 }
 
-.main__container{
-     flex: 1;
-   
-}
-
 .main__infos{
+    flex: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+   margin-bottom: 150px;
 }
 
 .main__title {
@@ -44,6 +46,8 @@
 }
 
 .main__paragraph {
+    width: 568px;
+    height: 73px;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -74,39 +78,11 @@
     background-color: #FFD465;
 }
 
-.about__person__women {
-   order: -1;
-   position: absolute;
-   z-index: 9999;
-   background-color: tomato;
-
-}
 
 
-
-@media (max-width: 1200px){
-    
-    .img__desktop {
-        max-width: 522px;
-    }
-}
-
-@media (max-width: 900px){
-    .img__desktop {
-        max-width: 322px;
-    }
-    
-}
 
 @media (max-width: 800px){
-    .main {
-        height: 100%
-    }
-}
-
-@media (max-width: 600px){
     .main__img {
         order: -1;
     }
-    
 }
