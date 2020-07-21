@@ -93,8 +93,8 @@
 
 @media (max-width: 480px){
     .about__person__women {
-        top: -100px;
-        width: 100px;
+        top: -100px !important; 
+        max-width: 100px;
     }
     .about__person_man {
         bottom: -22px;
