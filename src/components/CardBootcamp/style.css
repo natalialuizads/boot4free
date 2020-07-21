@@ -50,7 +50,9 @@ overflow: hidden;
 }
 
 .btn:hover{
-   background-color: #8094FF;
+    border: 3px solid #1947E5;
+    color: #1947E5;
+    background-color: transparent;
 }
 
 .btn__text {
