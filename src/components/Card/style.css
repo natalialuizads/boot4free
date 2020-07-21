@@ -12,6 +12,18 @@ justify-content: center;
 text-align: center;
 }
 
+.card:nth-of-type(3n+1) {
+	background: #FFBD12;
+}
+
+.card:nth-of-type(3n+2) {
+	background: #FF9692;
+}
+
+.card:nth-of-type(3n+3) {
+	background: #00C6AE;
+}
+
 .card__title {
 font-weight: 800;
 font-size: 18px;
