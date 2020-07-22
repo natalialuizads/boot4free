@@ -15,3 +15,8 @@
     color: #18191F;
     margin: 40px auto;
 }
+
+.searchbar__container{
+    display: block;
+    max-width: 1200px;
+}

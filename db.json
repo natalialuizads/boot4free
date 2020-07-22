@@ -1,7 +1,7 @@
 {
    "bootcamps": [ {
       "id": 1,
-      "company": "{Reprograma}",
+      "company": "Reprograma",
       "logo": "https://reprograma.com.br/assets/img/logo.png",
       "description": "A {reprograma} é uma iniciativa de impacto social que foca em ensinar programação para mulheres cis e trans que não têm recursos e/ou oportunidades para aprender a programar.",
       "url": "https://reprograma.com.br/",
