@@ -7,7 +7,7 @@ import person2 from '../../../assets/images/person_sobre2.png'
 
 const About = () => {
    return(
-       <section className="about" id="sobre">
+       <section className="about" id="about">
            <div className="about__infos">
            <div>
            <Title text="Sobre" className="about__title" />

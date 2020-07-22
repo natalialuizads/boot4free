@@ -7,7 +7,7 @@ import IconSearch from "../../assets/images/search.png";
 
 const SearchBar = ({ value, onChange, onClick }) => {
   return (
-    <>
+    <div class="searchbar">
       <Input
         type="text"
         placeholder="O que você busca?"
@@ -21,7 +21,7 @@ const SearchBar = ({ value, onChange, onClick }) => {
         icon={IconSearch}
         text=""
       />
-    </>
+    </div>
   );
 };
 

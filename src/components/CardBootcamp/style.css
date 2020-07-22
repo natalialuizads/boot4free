@@ -59,6 +59,7 @@ overflow: hidden;
     justify-content: center;
     align-items: center;
     color: white;
+    cursor: pointer;
 }
 
 .btn:hover{

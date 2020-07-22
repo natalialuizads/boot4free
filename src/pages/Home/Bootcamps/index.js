@@ -15,7 +15,6 @@ const Bootcamps = ({ courses, onChange, onClick, value }) => {
         onClick={onClick} 
         value={value}
         />
-     
       </div>
 
       <div className="bootcampsList">

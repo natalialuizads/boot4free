@@ -17,7 +17,7 @@ const Main = () => {
             <br /> bootcamps gratuitos em único lugar.
           </p>
           <Link to="/#bootcamps" className="btn__bootcamp">
-            Buscar Bootcamp{" "}
+            Buscar Bootcamp
           </Link>
         </div>
       </div>

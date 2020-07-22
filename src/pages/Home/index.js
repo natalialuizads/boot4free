@@ -13,8 +13,6 @@ class Home extends Component {
       courses: [],
       valueInput: "",
     };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
   }
 
   componentDidMount() {
@@ -26,18 +24,18 @@ class Home extends Component {
     this.setState({ courses: response.data });
   };
 
-  handleChange(e) {
+  handleChange = (e) => {
     const valueInput = e.target.value;
-    console.log("Change", valueInput);
     this.setState({ valueInput });
-  }
+  };
 
-  handleClick = async (e) => {
+  handleClick = (e) => {
     const { valueInput, courses } = this.state;
 
-    const search = await courses.filter((course) =>
+    const search = courses.filter(course =>
       course.company.toLowerCase().includes(valueInput.toLowerCase())
     );
+    console.log(search)
     this.setState({ courses: search, valueInput: "" });
   };
 

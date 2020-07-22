@@ -17,6 +17,9 @@
 }
 
 .searchbar__container{
-    display: block;
+    display: flex;
     max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
