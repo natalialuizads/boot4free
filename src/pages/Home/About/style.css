@@ -36,6 +36,7 @@
     color: #474A57;
     text-align: center;
     padding: 10px;
+    margin: 20px
 }
 
 .about__person__women {
@@ -87,7 +88,7 @@
 
 @media (max-width: 857px){
     .about__infos div {
-        margin: 101px 100px;
+        margin: 101px 50px;
     }
 }
 
@@ -108,7 +109,7 @@
         line-height: 27px;
     }
     .about__title {
-        font-size: 36px;
+         font-size: 20px;
     }
     .about {
         border-radius: 25px;

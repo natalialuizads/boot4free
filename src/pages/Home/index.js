@@ -11,7 +11,7 @@ class Home extends Component {
     super();
     this.state = {
       courses: [],
-      valueInput: "",
+      search: "",
     };
   }
 
@@ -25,30 +25,21 @@ class Home extends Component {
   };
 
   handleChange = (e) => {
-    const valueInput = e.target.value;
-    this.setState({ valueInput });
+    this.setState({ search: e.target.value });
   };
-
-  handleClick = (e) => {
-    const { valueInput, courses } = this.state;
-
-    const search = courses.filter(course =>
-      course.company.toLowerCase().includes(valueInput.toLowerCase())
-    );
-    console.log(search)
-    this.setState({ courses: search, valueInput: "" });
-  };
-
   render() {
+    const { search, courses } = this.state;
+    const filteredCourses = courses.filter(course => {
+      return course.company.toLowerCase().indexOf(search.toLowerCase()) !== -1;
+    });
     return (
       <main>
         <Main />
         <About />
         <Bootcamps
-          courses={this.state.courses}
+          courses={filteredCourses}
           onChange={this.handleChange}
-          value={this.state.valueInput}
-          onClick={this.handleClick}
+          value={search}
         />
       </main>
     );
