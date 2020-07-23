@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       Desenvolvido por &nbsp;
-      <a href="https://github.com/natalialuizas" targer="_blank"> Natália Luiza</a>
+      <a href="https://github.com/natalialuizas" target="_blank"> Natália Luiza</a>
     </footer>
   );
 };
