@@ -1,11 +1,9 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 import "./style.css";
 
 const Header = () => {
   return (
-    <BrowserRouter>
     <header className="header">
       <div className="nav">
         <div className="menu__logo">
@@ -30,7 +28,6 @@ const Header = () => {
         </nav>
       </div>
     </header>
-    </BrowserRouter>
   );
 };
 
