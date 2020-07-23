@@ -25,7 +25,7 @@ const Bootcamps = ({ courses, onChange, onClick, value }) => {
           logo={logo} 
           id={id} />
         )) : 
-        <div>
+        <div className="bootcampsList__message">
           <h1>Nenhuma curso encontrado</h1>
         </div>
         }
