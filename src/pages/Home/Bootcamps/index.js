@@ -18,13 +18,17 @@ const Bootcamps = ({ courses, onChange, onClick, value }) => {
       </div>
 
       <div className="bootcampsList">
-        {courses.map(({ id, company, logo }) => (
+        {courses.length ? courses.map(({ id, company, logo }) => (
           <CardBootcamp 
           key={id} 
           name={company} 
           logo={logo} 
           id={id} />
-        ))}
+        )) : 
+        <div>
+          <h1>Nenhuma curso encontrado</h1>
+        </div>
+        }
       </div>
     </section>
   );
