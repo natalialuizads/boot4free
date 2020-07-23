@@ -154,22 +154,6 @@
     },
     {
       "id": 6,
-      "company": "Digital House from Facebook",
-      "logo": "https://images.assets-landingi.com/3y81uSF1RfLaPyVe/logo2.png",
-      "description": "A Digital House, uma startup de educação, chegou ao Brasil para ajudar a diminuir esse déficit, formando profissionais digitais preparados para o mercado de trabalho.",
-      "url": "https://www.digitalhouse.com/br/bolsas/estacao-hack",
-      "courses": [
-          {
-              "name": "Web Front End",
-              "duration": "5 semanas",
-              "registrations": "22/07/2020",
-              "note": ""
-          }
-        ]
-    
-    },
-    {
-      "id": 7,
       "company": "Elogroup (Digital Boot Camp)",
       "logo": "https://bootcamp.elogroup.com.br/wp-content/uploads/2020/04/logo-digital-boot-camp-landing.png",
       "description": "O Digital Boot Camp da EloGroup é uma experiência intensiva de aprendizado 100% online e gratuita. Os alunos das diversas universidades do país que forem selecionados para participar do programa serão distribuídos em grupos para trabalharem juntos nos desafios, isso porque, além de disseminar conhecimento a respeito de inovação, visamos conectar pessoas engajadas e interessadas no assunto.",
@@ -180,7 +164,7 @@
      
     },
     {
-      "id": 8,
+      "id": 7,
       "company": "Generation Brazil",
       "logo": "https://brazil.generation.org/wp-content/uploads/2019/03/Generation_BRASIL_logo_WHITE.svg",
       "description": "Nossa missão é apoiar jovens a construírem carreiras sustentáveis e prósperas e fornecer aos empregadores uma rede de talentos altamente qualificados e motivados, visando aprimorar os resultados de seus negócios. Nossa visão é possibilitar um emprego no início da carreira para todos os jovens em qualquer lugar do mundo.",
@@ -197,7 +181,7 @@
 
     },
     {
-        "id": 9,
+        "id": 8,
         "company": "Recorde Pro",
         "logo": "https://www.recodepro.org.br/wp-content/uploads/2020/05/logo_maior-2.png",
         "description": "O Programa Recode Pro visa a formação e a empregabilidade de pessoas de 18 a 39 anos, em situação de maior vulnerabilidade social, como programadores full stack. Além do conteúdo técnico, são desenvolvidos temas como criatividade, comunicação, atuação profissional, e a metodologia proposta se baseia na colaboração e na construção de projetos para a resolução de problemas sociais.",
@@ -214,7 +198,7 @@
   
       },
       {
-        "id": 10,
+        "id": 9,
         "company": "Estartando devs",
         "logo": "./assets/image/estartando.png",
         "description": "Acreditamos no poder de transformação social através da Tecnologia da Informação. Por isso, oferecemos uma formação objetiva e focada nas exigências do mercado de TI. Os dois cursos incluem ainda conhecimentos em métodos de gestão ágil de projetos utilizados no mercado para o desenvolvimento de trabalhos em equipe, além de assessoria no Linkedin e direcionamento de carreira.",
