@@ -37,7 +37,7 @@
       "id": 2,
       "company": "Laboratoria",
       "logo": "https://v.fastcdn.co/u/cf943cfe/27418802-0-Laboratoria-Logo-RGB.png",
-      "description": "Um bootcamp de 6 meses em que as alunas têm aulas 5 dias por semana, aprendendo não só sobre aspectos técnicos (Javascript), como também desenvolvendo habilidades socioemocionais.<strong> As estudantes não pagam nada durante o curso e, depois de conseguirem um emprego, elas doam uma contribuição por até dois anos para que outras mulheres possam ter a mesma oportunidade. </strong>",
+      "description": "Um bootcamp de 6 meses em que as alunas têm aulas 5 dias por semana, aprendendo não só sobre aspectos técnicos (Javascript), como também desenvolvendo habilidades socioemocionais. As estudantes não pagam nada durante o curso e, depois de conseguirem um emprego, elas doam uma contribuição por até dois anos para que outras mulheres possam ter a mesma oportunidade. ",
       "url": "https://www.laboratoria.la/br",
       "courses": [
           {
@@ -200,7 +200,7 @@
       {
         "id": 9,
         "company": "Estartando devs",
-        "logo": "./assets/image/estartando.png",
+        "logo": "https://ibb.co/x3nW30p",
         "description": "Acreditamos no poder de transformação social através da Tecnologia da Informação. Por isso, oferecemos uma formação objetiva e focada nas exigências do mercado de TI. Os dois cursos incluem ainda conhecimentos em métodos de gestão ágil de projetos utilizados no mercado para o desenvolvimento de trabalhos em equipe, além de assessoria no Linkedin e direcionamento de carreira.",
         "url": "https://estartandodevs.com.br/",
         "courses": [
