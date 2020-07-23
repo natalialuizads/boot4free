@@ -212,6 +212,29 @@
           ]
        
   
+      },
+      {
+        "id": 10,
+        "company": "Estartando devs",
+        "logo": "./assets/image/estartando.png",
+        "description": "Acreditamos no poder de transformação social através da Tecnologia da Informação. Por isso, oferecemos uma formação objetiva e focada nas exigências do mercado de TI. Os dois cursos incluem ainda conhecimentos em métodos de gestão ágil de projetos utilizados no mercado para o desenvolvimento de trabalhos em equipe, além de assessoria no Linkedin e direcionamento de carreira.",
+        "url": "https://estartandodevs.com.br/",
+        "courses": [
+            {
+                "name": "Desenvolvimento Web",
+                "duration": "",
+                "registrations": "25/07/2020",
+                "note": ""
+            },
+            {
+              "name": "Design UI/UX",
+              "duration": "",
+              "registrations": "25/07/2020",
+              "note": ""
+            }
+          ]
+       
+  
       }
    ]
 }
