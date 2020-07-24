@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from "axios";
 
-const api = axios.create({ baseURL: 'https://my-json-server.typicode.com/natalialuizas/boot4free/'})
+const api = axios.create({
+  baseURL: "https://my-json-server.typicode.com/natalialuizas/boot4free/",
+});
 
 export default api;
-
-

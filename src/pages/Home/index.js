@@ -29,7 +29,7 @@ class Home extends Component {
   };
   render() {
     const { search, courses } = this.state;
-    const filteredCourses = courses.filter(course => {
+    const filteredCourses = courses.filter((course) => {
       return course.company.toLowerCase().indexOf(search.toLowerCase()) !== -1;
     });
     return (

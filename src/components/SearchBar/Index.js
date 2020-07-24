@@ -5,7 +5,7 @@ import Input from "../Input";
 import Button from "../Button";
 import IconSearch from "../../assets/images/search.png";
 
-const SearchBar = ({ value, onChange, onClick }) => {
+const SearchBar = ({ value, onChange }) => {
   return (
     <div className="searchbar">
       <Input
@@ -15,12 +15,7 @@ const SearchBar = ({ value, onChange, onClick }) => {
         onChange={onChange}
         className="input__search"
       />
-      <Button
-        className="btn__search"
-        onClick={onClick}
-        icon={IconSearch}
-        text=""
-      />
+      <Button className="btn__search" icon={IconSearch} text="" />
     </div>
   );
 };

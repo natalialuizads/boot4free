@@ -13,17 +13,16 @@ const Header = () => {
         </div>
         <nav className="nav__menu">
           <ul className="menu">
-         
-              <li className="menu__item">
-                <Link to="/#about" className="">
-                  Sobre
-                </Link>
-              </li>
-              <li className="menu__item">
-                <Link to="/#bootcamps" className="">
-                  Bootcamps
-                </Link>
-              </li>
+            <li className="menu__item">
+              <Link to="/#about" className="">
+                Sobre
+              </Link>
+            </li>
+            <li className="menu__item">
+              <Link to="/#bootcamps" className="">
+                Bootcamps
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

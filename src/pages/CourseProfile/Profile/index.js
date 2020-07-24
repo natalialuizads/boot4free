@@ -17,7 +17,12 @@ const Profile = ({ name, description, url }) => {
       <Title text={name} className="profile__title" />
       <p className="profile__paragraph">
         {description}
-        <a className="link__site" href={url} target="_blank" rel="noopener noreferrer">
+        <a
+          className="link__site"
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           (Acessar site)
         </a>
       </p>
