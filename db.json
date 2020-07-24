@@ -31,7 +31,8 @@
             "note":"para Recife"
          }
 
-      ]
+      ],
+      "tags": ["frontend", "backend"]
     },
     {
       "id": 2,
@@ -46,7 +47,8 @@
               "registrations": "09/08/2020",
               "note": ""
           }
-        ]
+        ],
+      "tags": ["frontend"]
      
     },
     {
@@ -133,8 +135,8 @@
             "registrations": "31/07/2020",
             "note": ""
          }
-        ]
-     
+        ],
+        "tags": ["frontend", "backend", "node", "node.js", "banco", "fullstack"]
     },
     {
       "id": 5,
@@ -149,7 +151,8 @@
               "registrations": "04/09/2020",
               "note": "TAXA DE MATRÍCULA R$ 100,00"
           }
-        ]
+        ],
+        "tags": ["software"]
      
     },
     {
@@ -173,7 +176,7 @@
           {
               "name": "Desenvolvedor Júnior",
               "duration": "12 Semanas",
-              "registrations": "Em Breve",
+              "registrations": "Abertas",
               "note": ""
           }
         ]
@@ -193,7 +196,8 @@
                 "registrations": "10/07/2020",
                 "note": ""
             }
-          ]
+          ],
+          "tags": ["fullstack"]
        
   
       },
@@ -216,7 +220,8 @@
               "registrations": "25/07/2020",
               "note": ""
             }
-          ]
+          ],
+          "tags": ["web", "ui", "ux"]
        
   
       }
